@@ -7,8 +7,15 @@
       "RelativeMoniker": "D:0:0:{C9A1358D-029E-4A82-8B0B-FC4220803CAE}|ConsumerINFluxDb\\ConsumerINFluxDb.csproj|solutionrelative:consumerinfluxdb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C9A1358D-029E-4A82-8B0B-FC4220803CAE}|ConsumerINFluxDb\\ConsumerINFluxDb.csproj|d:\\consumerinfluxdb\\consumerinfluxdb\\symbolquote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A1358D-029E-4A82-8B0B-FC4220803CAE}|ConsumerINFluxDb\\ConsumerINFluxDb.csproj|solutionrelative:consumerinfluxdb\\symbolquote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C9A1358D-029E-4A82-8B0B-FC4220803CAE}|ConsumerINFluxDb\\ConsumerINFluxDb.csproj|d:\\consumerinfluxdb\\consumerinfluxdb\\consumerinfluxdb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C9A1358D-029E-4A82-8B0B-FC4220803CAE}|ConsumerINFluxDb\\ConsumerINFluxDb.csproj|solutionrelative:consumerinfluxdb\\consumerinfluxdb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Abdullah\\source\\repos\\influxdb-csharp-client-sample\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9A1358D-029E-4A82-8B0B-FC4220803CAE}|ConsumerINFluxDb\\ConsumerINFluxDb.csproj|d:\\consumerinfluxdb\\consumerinfluxdb\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,24 +29,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\source\\repos\\influxdb-csharp-client-sample\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\source\\repos\\influxdb-csharp-client-sample\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwBcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T12:45:04.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SymbolQuote.cs",
+              "DocumentMoniker": "D:\\ConsumerINFluxDb\\ConsumerINFluxDb\\SymbolQuote.cs",
+              "RelativeDocumentMoniker": "ConsumerINFluxDb\\SymbolQuote.cs",
+              "ToolTip": "D:\\ConsumerINFluxDb\\ConsumerINFluxDb\\SymbolQuote.cs",
+              "RelativeToolTip": "ConsumerINFluxDb\\SymbolQuote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T10:30:23.75Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ConsumerINFluxDb\\ConsumerINFluxDb\\Program.cs",
               "RelativeDocumentMoniker": "ConsumerINFluxDb\\Program.cs",
-              "ToolTip": "D:\\ConsumerINFluxDb\\ConsumerINFluxDb\\Program.cs",
-              "RelativeToolTip": "ConsumerINFluxDb\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAA+AAAAAAAAAA==",
+              "ToolTip": "D:\\ConsumerINFluxDb\\ConsumerINFluxDb\\Program.cs*",
+              "RelativeToolTip": "ConsumerINFluxDb\\Program.cs*",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowDcAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T14:43:43.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ConsumerINFluxDb.csproj",
               "DocumentMoniker": "D:\\ConsumerINFluxDb\\ConsumerINFluxDb\\ConsumerINFluxDb.csproj",
               "RelativeDocumentMoniker": "ConsumerINFluxDb\\ConsumerINFluxDb.csproj",
@@ -47,11 +78,12 @@
               "RelativeToolTip": "ConsumerINFluxDb\\ConsumerINFluxDb.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-16T13:12:01.707Z"
+              "WhenOpened": "2024-10-16T13:12:01.707Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Booking.cs",
               "DocumentMoniker": "D:\\ConsumerINFluxDb\\ConsumerINFluxDb\\Booking.cs",
               "RelativeDocumentMoniker": "ConsumerINFluxDb\\Booking.cs",

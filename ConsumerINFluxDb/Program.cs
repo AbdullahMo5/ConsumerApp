@@ -22,7 +22,7 @@ namespace ConsumerINFluxDb
 
             using var channel = connection.CreateModel();
 
-            channel.QueueDeclare("booking-test02", durable: true,
+            channel.QueueDeclare("booking-test04", durable: true,
                                  exclusive: false,
                                  autoDelete: false,
                                  arguments: null);
@@ -34,9 +34,9 @@ namespace ConsumerINFluxDb
             {
                 var body = eventArgs.Body.ToArray();
 
-                var booking = JsonSerializer.Deserialize<Booking>(body);
+                var symbol = JsonSerializer.Deserialize<SymbolQuote>(body);
 
-                Console.WriteLine($"Passenger Id: {booking.Id} Passenger Name: {booking.PassengerName}");
+                Console.WriteLine($"Symbol Id: {symbol.SymbolId} Symbol Name: {symbol.SymbolName} Bid {symbol.Bid} Ask {symbol.Ask}");
                 service.Write(write =>
                 {
                     DateTime original = DateTime.Now; // Current date and time
@@ -50,20 +50,24 @@ namespace ConsumerINFluxDb
                         0 // Set seconds to 0
                     );
 
-                    var point = PointData.Measurement($"bookings-{truncated}")
-                        .Tag("PassengerName", booking.PassengerName)
-                        .Field("Id", booking.Id)
+                    //var point = PointData.Measurement($"Symbols-{truncated}")
+                    var point = PointData.Measurement($"Symbols-{truncated}")
+                        .Tag("Id", symbol.SymbolId.ToString())
+                        .Field("symbolObject", JsonSerializer.Serialize(symbol))
+                        //.Field("BId", symbol.Bid)
+                        //.Field("ASK", symbol.Ask)
+                        //.Field("Digits", symbol.Digits)
                         .Timestamp(DateTime.Now, WritePrecision.Ms);
 
-                    write.WritePoint(point, "NewBucket", "organization");
+                    write.WritePoint(point, "Symbols", "organization");
                     channel.BasicAck(deliveryTag: eventArgs.DeliveryTag, multiple: false);
-                    Console.WriteLine($"passanger has been added{booking.Id}");
+                    Console.WriteLine($"Symbol has been added{symbol.SymbolId}");
 
 
                 });
             };
 
-            channel.BasicConsume(queue: "booking-test02", autoAck: false, consumer: consumer);
+            channel.BasicConsume(queue: "booking-test04", autoAck: false, consumer: consumer);
 
             Console.ReadKey();
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsumerINFluxDb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a91db1521700e84247623473e29f2b529b0dc01d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsumerINFluxDb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsumerINFluxDb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
